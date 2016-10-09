@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from bluetooth import *
 from time import sleep
-camera_port=1
+camera_port=1 #Put your camera port number here
 ramp_frames=15
 images=[]
 camera=cv2.VideoCapture(camera_port)
